@@ -555,6 +555,10 @@
 	@include paddingTop(25px);
 }
 
+.pt--50{
+	padding-top: 50px
+}
+
 .pr--0 {
 	@include paddingRight(0);
 }
