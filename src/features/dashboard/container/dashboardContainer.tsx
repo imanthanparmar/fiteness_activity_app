@@ -9,11 +9,10 @@ import { IFitnessData } from "../interface/dashboard.interface";
 
 const DashboardContainer: React.FC = () => {
   const data: IFitnessData | any = FITNESS_DATA;
-  console.log("data", data);
   return (
     <div className="main-container">
       <div className="dashboard-main">
-        <Header />
+        <Header name={data.user.name} />
         <MainDashboard />
       </div>
       <Profile profileData={data.user} />

@@ -51,11 +51,5 @@ const NAVARRAY: INavArray[] = [
     name: "dashboard",
     icon: <HomeIcon />,
     route: "/dashboard",
-  },
-  {
-    id: 1,
-    name: "activity",
-    icon: <ActivityIcon />,
-    route: "/activity",
-  },
+  }
 ];

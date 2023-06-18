@@ -1,10 +1,17 @@
 import React from "react";
 import { WavingHandIcon } from "shared/components/icons/icons";
-const Header: React.FC = () => {
+
+interface IProps {
+  name: string
+}
+const Header: React.FC<IProps> = (props) => {
+  const {
+    name
+  } = props
   return (
     <div className="header-container">
       <h1 className="pl--20 font--medium">
-        Welcome, <span className="font--light font-size--26">Manthan</span>{" "}
+        Welcome, <span className="font--light font-size--26">{name.split(' ')[0]}</span>{" "}
         <span>
           <WavingHandIcon />
         </span>{" "}

@@ -1343,3 +1343,19 @@
 	color: getColor($red, 200);
 	@include marginTop(10px);
 }
+
+.modal-content{
+	width: 400px;
+    background: #fff;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 40px;
+	padding: 25px;
+	position: relative
+}
+
+.modal-cross--icon{
+	position: absolute;
+	right: 16px;
+	top: 16px;
+}

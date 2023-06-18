@@ -222,3 +222,166 @@ export const HeartIcon: FC<IIconProps> = ({
     ></path>
   </svg>
 );
+
+export const FootIcon: FC<IIconProps> = ({
+  height,
+  width,
+  className,
+}: IIconProps) => (
+  <svg
+    width="50"
+    height="50"
+    viewBox="0 0 128 128"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+    role="img"
+    className="iconify iconify--noto"
+    preserveAspectRatio="xMidYMid meet"
+  >
+    <path
+      d="M49.1 27.3c10.3 15.2-4.7 31.2-3.4 38.1c2.3 12.2 12.1 18.2 2.9 30.5c-1.5 2-8.3 6.7-18 1c-10.4-6.1-24.12-45.1-17.77-61.51C19.42 18.38 42.8 18.1 49.1 27.3z"
+      fill="#ffffff"
+    ></path>
+    <path
+      d="M49.9 24.3c-4.6-3-3.1-24.5 9.8-17s-5.2 20-9.8 17z"
+      fill="#ffffff"
+    ></path>
+    <path
+      d="M38.3 17.9c-4.1-1-6.2-15.4 3-13.6s1.1 14.6-3 13.6z"
+      fill="#ffffff"
+    ></path>
+    <path
+      d="M28.8 17.55c-2.5.7-12.4-8.9-3.2-11.9c8.8-2.9 5.7 11.2 3.2 11.9z"
+      fill="#ffffff"
+    ></path>
+    <path
+      d="M20.2 21.2c-2.5 1.5-12.2-5.5-5.8-9.9c6.1-4 8.3 8.4 5.8 9.9z"
+      fill="#ffffff"
+    ></path>
+    <path
+      d="M13.9 27.05c-1.9 2.5-10.3-1.6-7-5.9s8.9 3.4 7 5.9z"
+      fill="#ffffff"
+    ></path>
+    <path
+      d="M78.1 51.8C67.8 67 82.8 83 81.5 89.9c-2.3 12.2-12.1 18.2-2.9 30.5c1.5 2 8.3 6.7 18 1c10.4-6.1 23.56-48.07 18.4-62.2c-5.84-15.97-30.6-16.6-36.9-7.4z"
+      fill="#ffffff"
+    ></path>
+    <path
+      d="M77.3 48.8c4.6-3 3.1-24.5-9.8-17s5.2 20 9.8 17z"
+      fill="#ffffff"
+    ></path>
+    <path
+      d="M88.9 42.4c4.1-1 6.2-15.4-3-13.6s-1.1 14.6 3 13.6z"
+      fill="#ffffff"
+    ></path>
+    <path
+      d="M98.15 42.3c2.5.7 12.3-8.9 3.2-11.9c-8.8-2.9-5.7 11.2-3.2 11.9z"
+      fill="#ffffff"
+    ></path>
+    <path
+      d="M107 45.7c2.5 1.5 12.2-5.5 5.8-9.9c-6.1-4-8.3 8.4-5.8 9.9z"
+      fill="#ffffff"
+    ></path>
+    <path
+      d="M113.65 51.3c1.9 2.5 10.3-1.6 7-5.9c-3.4-4.3-9 3.4-7 5.9z"
+      fill="#ffffff"
+    ></path>
+  </svg>
+);
+
+export const FireIcon: FC<IIconProps> = ({
+  height,
+  width,
+  className,
+}: IIconProps) => (
+  <svg
+    width="50"
+    height="50"
+    viewBox="0 0 128 128"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+    role="img"
+    className="iconify iconify--noto"
+    preserveAspectRatio="xMidYMid meet"
+  >
+    <radialGradient
+      id="IconifyId17ecdb2904d178eab8626"
+      cx="68.884"
+      cy="124.296"
+      r="70.587"
+      gradientTransform="matrix(-1 -.00434 -.00713 1.6408 131.986 -79.345)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset=".314" stop-color="#ff9800"></stop>
+      <stop offset=".662" stop-color="#ff6d00"></stop>
+      <stop offset=".972" stop-color="#f44336"></stop>
+    </radialGradient>
+    <path
+      d="M35.56 40.73c-.57 6.08-.97 16.84 2.62 21.42c0 0-1.69-11.82 13.46-26.65c6.1-5.97 7.51-14.09 5.38-20.18c-1.21-3.45-3.42-6.3-5.34-8.29c-1.12-1.17-.26-3.1 1.37-3.03c9.86.44 25.84 3.18 32.63 20.22c2.98 7.48 3.2 15.21 1.78 23.07c-.9 5.02-4.1 16.18 3.2 17.55c5.21.98 7.73-3.16 8.86-6.14c.47-1.24 2.1-1.55 2.98-.56c8.8 10.01 9.55 21.8 7.73 31.95c-3.52 19.62-23.39 33.9-43.13 33.9c-24.66 0-44.29-14.11-49.38-39.65c-2.05-10.31-1.01-30.71 14.89-45.11c1.18-1.08 3.11-.12 2.95 1.5z"
+      fill="url(#IconifyId17ecdb2904d178eab8626)"
+    ></path>
+    <radialGradient
+      id="IconifyId17ecdb2904d178eab8627"
+      cx="64.921"
+      cy="54.062"
+      r="73.86"
+      gradientTransform="matrix(-.0101 .9999 .7525 .0076 26.154 -11.267)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset=".214" stop-color="#fff176"></stop>
+      <stop offset=".328" stop-color="#fff27d"></stop>
+      <stop offset=".487" stop-color="#fff48f"></stop>
+      <stop offset=".672" stop-color="#fff7ad"></stop>
+      <stop offset=".793" stop-color="#fff9c4"></stop>
+      <stop offset=".822" stop-color="#fff8bd" stop-opacity=".804"></stop>
+      <stop offset=".863" stop-color="#fff6ab" stop-opacity=".529"></stop>
+      <stop offset=".91" stop-color="#fff38d" stop-opacity=".209"></stop>
+      <stop offset=".941" stop-color="#fff176" stop-opacity="0"></stop>
+    </radialGradient>
+    <path
+      d="M76.11 77.42c-9.09-11.7-5.02-25.05-2.79-30.37c.3-.7-.5-1.36-1.13-.93c-3.91 2.66-11.92 8.92-15.65 17.73c-5.05 11.91-4.69 17.74-1.7 24.86c1.8 4.29-.29 5.2-1.34 5.36c-1.02.16-1.96-.52-2.71-1.23a16.09 16.09 0 0 1-4.44-7.6c-.16-.62-.97-.79-1.34-.28c-2.8 3.87-4.25 10.08-4.32 14.47C40.47 113 51.68 124 65.24 124c17.09 0 29.54-18.9 19.72-34.7c-2.85-4.6-5.53-7.61-8.85-11.88z"
+      fill="url(#IconifyId17ecdb2904d178eab8627)"
+    ></path>
+  </svg>
+);
+
+export const MoonIcon: FC<IIconProps> = ({
+  height,
+  width,
+  className,
+}: IIconProps) => (
+  <svg
+    width="50"
+    height="50"
+    viewBox="0 0 128 128"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+    role="img"
+    className="iconify iconify--noto"
+    preserveAspectRatio="xMidYMid meet"
+  >
+    <path
+      d="M99.32 28.84L93.51 9.5l-1.98-2.66s-.15-.18-.17-.24c-.06-.25-.13-.66.11-.97c.18-.23.49-.29.85-.26c.14.01.48.14 1.02.44c5.31 3 28.21 21.75 30.14 52.02c1.09 17.1-5.15 35.4-18.27 48.16c-12.46 12.11-31.28 19.65-51.98 16.7c-30.94-4.41-44.22-23.21-47.69-29.42c-.61-1.1-.91-1.8-.97-1.97c-.82-2.15-.6-3.24.17-3.49c.2-.06.65.02.9.3c1 1.12 2.82 1.85 2.82 1.85l12.88 10.43l63.89 4.84l22.65-49.38l-8.56-27.01z"
+      fill="#ffffff"
+    ></path>
+    <path
+      d="M73.65 87.67c15.97-9.9 23.77-26.72 24.39-42.28c.9-22.79-6.68-38.8-6.68-38.8s14.01 11.5 21.68 28.08s9 43.87-7.78 63.4c-18.45 21.45-43.18 22.72-58.73 18.7c-32.27-8.35-41.09-28.83-41.09-28.83s17.78 9.95 37.77 8.9c14.88-.78 22.54-4.27 30.44-9.17z"
+      fill="#ffffff"
+    ></path>
+  </svg>
+);
+
+export const CrossIcon: FC<IIconProps> = ({
+  height,
+  width,
+  className,
+}: IIconProps) => (
+  <svg
+    className={`icon`}
+    width="16"
+    height="16"
+    viewBox="0 0 10 10"
+  >
+    <path d="M6.19369 5L9.53353 1.66016C9.69204 1.50193 9.7812 1.28721 9.7814 1.06324C9.7816 0.839278 9.69282 0.624406 9.53459 0.465897C9.37636 0.307389 9.16164 0.218229 8.93768 0.218031C8.71371 0.217833 8.49884 0.306614 8.34033 0.464843L5.00049 3.80469L1.66064 0.464843C1.50214 0.306334 1.28715 0.217285 1.06299 0.217285C0.838823 0.217285 0.623839 0.306334 0.465331 0.464843C0.306823 0.623351 0.217773 0.838334 0.217773 1.0625C0.217773 1.28666 0.306823 1.50165 0.465331 1.66016L3.80517 5L0.465331 8.33984C0.306823 8.49835 0.217773 8.71333 0.217773 8.9375C0.217773 9.16166 0.306823 9.37665 0.465331 9.53515C0.623839 9.69366 0.838823 9.78271 1.06299 9.78271C1.28715 9.78271 1.50214 9.69366 1.66064 9.53515L5.00049 6.19531L8.34033 9.53515C8.49884 9.69366 8.71382 9.78271 8.93799 9.78271C9.16215 9.78271 9.37713 9.69366 9.53564 9.53515C9.69415 9.37665 9.7832 9.16166 9.7832 8.9375C9.7832 8.71333 9.69415 8.49835 9.53564 8.33984L6.19369 5Z" />
+  </svg>
+);
