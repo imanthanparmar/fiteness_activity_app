@@ -555,6 +555,10 @@
 	@include paddingTop(25px);
 }
 
+.pt--50{
+	padding-top: 50px
+}
+
 .pr--0 {
 	@include paddingRight(0);
 }
@@ -1338,4 +1342,20 @@
 .error {
 	color: getColor($red, 200);
 	@include marginTop(10px);
+}
+
+.modal-content{
+	width: 400px;
+    background: #fff;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 40px;
+	padding: 25px;
+	position: relative
+}
+
+.modal-cross--icon{
+	position: absolute;
+	right: 16px;
+	top: 16px;
 }
