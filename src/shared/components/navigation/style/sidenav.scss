@@ -1,0 +1,23 @@
+.sidenav-container {
+  width: 70px;
+  background-color: #ffffff;
+  height: 100vh;
+  padding-top: 20px;
+  position: absolute;
+  -webkit-box-shadow: 6px 2px 3px -3px rgba(189, 168, 168, 1);
+  -moz-box-shadow: 6px 2px 3px -3px rgba(189, 168, 168, 1);
+  box-shadow: 6px 2px 3px -3px rgba(189, 168, 168, 1);
+  
+  .active-background {
+    background-color: #5893ff;
+  }
+  .main-icon {
+    width: 30px;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
