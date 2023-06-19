@@ -60,7 +60,6 @@ const CaloriesChart = () => {
 		return chartData;
 	};
 	const chartData = transformData(activityData.activities);
-    console.log('chartData', chartData)
 	return (
 		<div className='p--20 line-graph--container'>
 			{chartData ? <Line data={chartData} options={lineChartOption} width={1040} height={520} className='m--30' /> : <Spinner />}
