@@ -1,23 +1,35 @@
-.activity-data-card{
-    width: 200px;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 16px;
-    margin-right: 20px;
+.activity-data-card {
+  width: 200px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  margin-right: 20px;
+  -webkit-box-shadow: -3px 4px 19px -4px rgba(135, 135, 135, 1);
+  -moz-box-shadow: -3px 4px 19px -4px rgba(135, 135, 135, 1);
+  box-shadow: -3px 4px 19px -4px rgba(135, 135, 135, 1);
 }
 
-.line-graph--container{
-    background: #ffffff;
-    border-radius: 16px;
-    margin-top: 30px;margin-left: 20px;
+.activity--main{
+    height: 100vh;
+    overflow-y: auto;
 }
 
-.back-btn{
-    background-color: #ffffff;
-    border-radius: 16px;
-    margin-top: 20px;
-    margin-left: 20px;
-    width: 50px;
-    padding: 15px 20px;
-    cursor: pointer;
+.line-graph--container {
+  background: #ffffff;
+  border-radius: 16px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.back-btn {
+  background-color: #ffffff;
+  border-radius: 16px;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 50px;
+  padding: 15px 20px;
+  cursor: pointer;
+  -webkit-box-shadow: -3px 4px 19px -4px rgba(135, 135, 135, 1);
+  -moz-box-shadow: -3px 4px 19px -4px rgba(135, 135, 135, 1);
+  box-shadow: -3px 4px 19px -4px rgba(135, 135, 135, 1);
 }

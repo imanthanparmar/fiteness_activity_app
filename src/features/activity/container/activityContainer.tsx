@@ -11,7 +11,7 @@ const ActivityContainer: React.FC = () => {
   const navigate = useNavigate()
 
   return (
-    <div className="main-container">
+    <div className="main-container activity--main">
       <div>
         <div onClick={() => navigate(-1)} className="back-btn">
             Back
